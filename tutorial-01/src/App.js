@@ -2,6 +2,7 @@ import "./App.css";
 import ArrowFunction from "./ArrowFunction/arrowFunction";
 import MapFuction from "./MapFunction/mapFuction";
 import DestructingArrays from "./DestructingArrays/destructingArrays";
+import Props from "./Props/props";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MapFuction />
       <hr></hr>
       <DestructingArrays />
+      <Props/>
     </div>
   );
 }
